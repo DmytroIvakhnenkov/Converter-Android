@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.project_x">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Converter">
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Area"
+            android:label="Area"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mass"
+            android:label="Mass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Length"
+            android:label="Length"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Temperature"
+            android:label="Temperature"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fourth_dimension"
+            android:label="Time"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Volume"
+            android:label="Volume"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authors"
+            android:label="Authors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Energy"
+            android:label="Energy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CurrencyConvert"
+            android:label="Currency"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NumberSystems"
+            android:label="Number Systems"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

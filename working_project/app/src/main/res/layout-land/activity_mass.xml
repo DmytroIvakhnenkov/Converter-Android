@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_area"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.project_x.Area">
+    <Spinner
+        android:text = "select a type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:id="@+id/from_type_m" />
+
+    <TextView
+        android:id="@+id/textView2_m"
+        android:layout_width="100pt"
+        android:layout_height="10pt"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:hint="result"
+        android:text=""
+        android:layout_below="@+id/spinner_m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_m"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText_m"
+        android:layout_width="100pt"
+        android:layout_height="10pt"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="enter number"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/from_type_m"
+        android:layout_alignLeft="@+id/textView2_m"
+        android:layout_alignStart="@+id/textView2_m" />
+</RelativeLayout>

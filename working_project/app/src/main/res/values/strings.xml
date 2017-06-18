@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="one">One</string>
+    <string name="in">In</string>
+    <string name="equal">Is Equal To</string>
+    <string name="result">Click Calculate for Result</string>
+    <string name="calculate">Calculate</string>
+    <string name="powered">Powered By Yahoo! Finance</string>
+
+    <string name="app_name">CurrencyConverter</string>
+    <string-array name="name">
+        <item>US Dollar</item>
+        <item>European Union Euro</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Ukrainian Hryvna</item>
+    </string-array>
+    <string-array name="value">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>UAH</item>
+    </string-array>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_number_systems">NumberSystems</string>
+    <string name="button_temperature">Temperature</string>
+    <string name="button_time">Time</string>
+    <string name="button_length">Length</string>
+    <string name="button_mass">Mass</string>
+    <string name="button_area">Area</string>
+    <string name="button_volume">Volume</string>
+    <string name="button_currency">Currency</string>
+    <string name="button_energy">Energy</string>
+    <string name="valuee1">joules</string>
+    <string name="valuee2">kilojoules</string>
+    <string name="valuee3">megajoules</string>
+    <string name="valuee4">horsepowers hour</string>
+    <string name="valuee5">calories</string>
+    <string name="valuee6">kilokalories</string>
+    <string name="valuee7">megakalories</string>
+    <string name="valuee8">kilowatts hour</string>
+    <string name="valuee9">watts hour</string>
+    <string name="valuee10">watts second</string>
+    <string name="valuee11">electronvolts</string>
+</resources>
