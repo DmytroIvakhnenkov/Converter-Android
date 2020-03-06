@@ -4,13 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
     <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:title="Back"
+        app:showAsAction="never"/>
+    <item
         android:id="@+id/action_2"
         android:orderInCategory="100"
-        android:title="Authors"
+        android:title="Disclaimer"
         app:showAsAction="never"/>
     <item
         android:id="@+id/action_3"
         android:orderInCategory="100"
-        android:title="Help"
+        android:title="Settings"
         app:showAsAction="never"/>
 </menu>

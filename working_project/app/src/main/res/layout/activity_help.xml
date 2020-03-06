@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_authors"
-    android:screenOrientation="portrait"
+    android:id="@+id/activity_help"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.project_x.Help">
+    android:paddingBottom="@dimen/_13sdp"
+    android:paddingLeft="@dimen/_13sdp"
+    android:paddingRight="@dimen/_13sdp"
+    android:paddingTop="@dimen/_13sdp"
+    android:screenOrientation="portrait"
+    tools:context="com.example.user.Unit_Converter.Help">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="351dp"
-        android:layout_height="138dp"
-        android:layout_marginLeft="40pt"
-        android:layout_marginRight="15pt"
+        android:layout_width="@dimen/_268sdp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="    Instructions for converting units in this application: 1)input some number in the top field; 2)select from the top dropdown list the specific unit type from what you want to convert and from the bottom dropdown list the specific unit type to what you want to convert."
+        android:text="    Instructions for converting units in this application: "
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        android:textSize="@dimen/_18sdp"/>
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="@dimen/_268sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:text="1) input a number in the top field;"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_18sdp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/_268sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="2) select from the top dropdown list the specific unit type from what you want to convert and from the bottom dropdown list the specific unit type to what you want to convert."
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_18sdp"/>
+
+</RelativeLayout>
 

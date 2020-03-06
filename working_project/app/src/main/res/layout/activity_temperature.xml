@@ -6,76 +6,81 @@
     android:screenOrientation="portrait"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/_13sdp"
+    android:paddingLeft="@dimen/_13sdp"
+    android:paddingRight="@dimen/_13sdp"
+    android:paddingTop="@dimen/_13sdp"
     android:background="#ffffff"
-    tools:context="com.example.user.project_x.Temperature">
+    tools:context="com.example.user.Unit_Converter.CurrencyConvert">
 
     <Spinner
+        android:dropDownVerticalOffset="30dp"
+        android:popupBackground="#fbfbfb"
         android:id="@+id/from_type_t"
         android:layout_width="match_parent"
-        android:layout_height="15pt"
+        android:layout_height="@dimen/_28sdp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="@dimen/_35sdp"
         android:background="@drawable/gradient_spinner"
-        android:text="select a type" />
+        android:text="select a type"
+        />
+
 
     <HorizontalScrollView
         android:scrollbarThumbHorizontal="@null"
         android:scrollbarThumbVertical="@null"
         android:id="@+id/scrollView"
-        android:layout_width="130pt"
-        android:layout_height="25pt"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_49sdp"
         android:layout_above="@+id/imageView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="19dp"
+        android:layout_marginBottom="@dimen/_25sdp"
         android:fillViewport="true">
 
         <TextView
             android:id="@+id/textView2_t"
-            android:layout_width="130pt"
-            android:layout_height="25pt"
-            android:layout_marginBottom="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_49sdp"
             android:background="@drawable/rectangle"
             android:gravity="center"
             android:hint="result"
             android:scrollHorizontally="true"
-            android:textSize="36sp" />
+            android:textSize="@dimen/_31sdp" />
     </HorizontalScrollView>
 
     <Spinner
+        android:dropDownVerticalOffset="@dimen/_24sdp"
+        android:popupBackground="#fbfbfb"
         android:id="@+id/spinner_t"
         android:layout_width="match_parent"
-        android:layout_height="15pt"
+        android:layout_height="@dimen/_28sdp"
         android:layout_above="@+id/scrollView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="47dp"
-        android:background="@drawable/gradient_spinner" />
+        android:layout_marginBottom="@dimen/_37sdp"
+        android:background="@drawable/gradient_spinner"
+        android:textSize="@dimen/_31sdp"/>
 
     <EditText
         android:id="@+id/editText_t"
-        android:background="@drawable/rectangle"
-        android:layout_width="130pt"
-        android:layout_height="25pt"
-        android:inputType="textPersonName"
-        android:layout_marginTop="41dp"
-        android:selectAllOnFocus="true"
-        android:hint="enter number"
-        android:textSize="36sp"
-        android:textAlignment="center"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_49sdp"
+        android:layout_alignStart="@+id/scrollView"
         android:layout_below="@+id/from_type_t"
-        android:layout_alignLeft="@+id/scrollView"
-        android:layout_alignStart="@+id/scrollView" />
+        android:layout_marginTop="@dimen/_37sdp"
+        android:background="@drawable/rectangle"
+        android:hint="enter a number"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/_31sdp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="55pt"
-        android:layout_height="55pt"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
         app:srcCompat="@drawable/temperature"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-</RelativeLayout>
 
+</RelativeLayout>

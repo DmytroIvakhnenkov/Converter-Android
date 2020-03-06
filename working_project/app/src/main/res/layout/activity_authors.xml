@@ -1,24 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_authors"
-    android:screenOrientation="portrait"
+    android:id="@+id/activity_help"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.project_x.Authors">
+    android:paddingBottom="@dimen/_13sdp"
+    android:paddingLeft="@dimen/_13sdp"
+    android:paddingRight="@dimen/_13sdp"
+    android:paddingTop="@dimen/_13sdp"
+    android:screenOrientation="portrait"
+    tools:context="com.example.user.Unit_Converter.Help">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="349dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="40pt"
-        android:layout_marginRight="15pt"
-        android:text="    This program was created by Dmytro Ivakhnenkov and Victor Checkhovoy."
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="@dimen/_53sdp"
+        android:text="    This program was created by Dmytro Ivakhnenkov."
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="1dp" />
+        android:textSize="@dimen/_18sdp"
+        tools:layout_editor_absoluteX="@dimen/_15sdp"
+        tools:layout_editor_absoluteY="@dimen/_1sdp" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:text="    For any kind of feedback use this address: mawiloua@gmail.com "
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:text="    Currency rates used in currency converter are taken from European Central Bank: www.ecb.europa.eu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="Author"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_24sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:text="Feedback"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_24sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:text="Copyright"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textSize="@dimen/_24sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+

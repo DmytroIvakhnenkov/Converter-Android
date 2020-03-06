@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.user.project_x">
-
+    package="com.example.user.Unit_Converter">
+    <uses-feature android:name="android.permission.CALL_PHONE"  android:required="false"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+    <compatible-screens>
+        <!--no small size screens -->
 
+
+        <!--all normal size screens -->
+        <screen android:screenSize="normal" android:screenDensity="ldpi" />
+        <screen android:screenSize="normal" android:screenDensity="mdpi" />
+        <screen android:screenSize="normal" android:screenDensity="hdpi" />
+        <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+
+        <!-- all large size screens -->
+        <screen android:screenSize="large" android:screenDensity="ldpi" />
+        <screen android:screenSize="large" android:screenDensity="mdpi" />
+        <screen android:screenSize="large" android:screenDensity="hdpi" />
+        <screen android:screenSize="large" android:screenDensity="xhdpi" />
+
+        <!-- all xlarge size screens -->
+        <screen android:screenSize="xlarge" android:screenDensity="ldpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="mdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+
+        <!-- Special case for Nexus 7 -->
+        <screen android:screenSize="large" android:screenDensity="213" />
+
+    </compatible-screens>
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="Converter">
+            android:name="com.example.user.Unit_Converter.MainActivity"
+            android:label="Unit Converter"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,48 +51,54 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Area"
+            android:name="com.example.user.Unit_Converter.Area"
             android:label="Area"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Mass"
+            android:name="com.example.user.Unit_Converter.Mass"
             android:label="Mass"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Length"
+            android:windowSoftInputMode=""
+            android:name="com.example.user.Unit_Converter.Length"
             android:label="Length"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            />
         <activity
-            android:name=".Temperature"
+            android:name="com.example.user.Unit_Converter.Temperature"
             android:label="Temperature"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Fourth_dimension"
+            android:name="com.example.user.Unit_Converter.Fourth_dimension"
             android:label="Time"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Volume"
+            android:name="com.example.user.Unit_Converter.Volume"
             android:label="Volume"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Authors"
-            android:label="Authors"
+            android:name="com.example.user.Unit_Converter.Authors"
+            android:label="Disclaimer"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Energy"
+            android:name="com.example.user.Unit_Converter.Energy"
             android:label="Energy"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CurrencyConvert"
+            android:name="com.example.user.Unit_Converter.CurrencyConvert"
             android:label="Currency"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Help"
+            android:name="com.example.user.Unit_Converter.Help"
             android:label="@string/title_activity_help"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NumberSystems"
-            android:label="Number Systems"
+            android:name="com.example.user.Unit_Converter.NumberSystems"
+            android:label="Scales of notation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.user.Unit_Converter.Settings"
+            android:label="Settings"
             android:screenOrientation="portrait"/>
     </application>
 

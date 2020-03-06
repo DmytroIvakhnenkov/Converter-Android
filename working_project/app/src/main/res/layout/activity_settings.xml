@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="portrait"
+    tools:context="com.example.user.Unit_Converter.Help">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/_370sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_113sdp"
+        android:text="Set number of digits after the dot:"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_13sdp"
+        tools:layout_editor_absoluteY="@dimen/_129sdp" />
+
+    <EditText
+        android:id="@+id/editText_S"
+        android:layout_width="@dimen/_84sdp"
+        android:layout_height="@dimen/_41sdp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20sdp"
+        tools:layout_editor_absoluteX="@dimen/_114sdp"
+        tools:layout_editor_absoluteY="@dimen/_170sdp"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_S"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_63sdp"
+        android:text="Precision"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="@dimen/_24sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

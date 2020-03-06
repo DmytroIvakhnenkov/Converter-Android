@@ -1,20 +1,12 @@
-package com.example.user.project_x;
+package com.example.user.Unit_Converter;
 
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
-import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-
-import java.util.Currency;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -79,23 +71,35 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, CurrencyConvert.class));
             }
         });
+
+        Button number_systems = (Button)findViewById(R.id.number_systems);
+        number_systems.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, NumberSystems.class));
+            }
+        });
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu1_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
-            case R.id.action_2:
-                Intent intent = new Intent(this, Authors.class);
-                startActivity(intent);
+            case R.id.action_1:
+                Intent intent1 = new Intent(this, Authors.class);
+                startActivity(intent1);
                 return true;
-            case R.id.action_3:
+            case R.id.action_2:
                 Intent intent2 = new Intent(this, Help.class);
                 startActivity(intent2);
+                return true;
+            case R.id.action_3:
+                Intent intent3 = new Intent(this, Settings.class);
+                startActivity(intent3);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

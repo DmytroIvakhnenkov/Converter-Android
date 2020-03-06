@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.user.project_x.Area">
+    tools:context="com.example.user.Unit_Converter.Area">
     <Spinner
         android:text = "select a type"
         android:layout_width="match_parent"

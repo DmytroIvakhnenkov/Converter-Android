@@ -10,82 +10,98 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.project_x.MainActivity">
+    tools:context="com.example.user.Unit_Converter.MainActivity">
 
     <Button
         android:text="@string/button_length"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="@dimen/_15sdp"
         android:id="@+id/length"
         android:layout_below="@+id/temp"
         android:layout_alignLeft="@+id/temp"
-        android:layout_alignStart="@+id/temp" />
+        android:layout_alignStart="@+id/temp"
+        android:textSize="@dimen/_11sdp"/>
 
     <Button
         android:text="@string/button_area"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
         android:id="@+id/area"
         android:layout_above="@+id/fourth"
         android:layout_alignLeft="@+id/mass"
-        android:layout_alignStart="@+id/mass" />
+        android:layout_alignStart="@+id/mass"
+        android:textSize="@dimen/_11sdp"/>
 
     <Button
-        android:text="@string/button_mass"
-        android:layout_width="60pt"
-        android:layout_height="wrap_content"
         android:id="@+id/mass"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/_111sdp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginTop="105dp" />
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/button_mass"
+        android:textSize="@dimen/_11sdp" />
 
     <Button
         android:text="@string/button_temperature"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
         android:id="@+id/temp"
         android:layout_alignBaseline="@+id/mass"
-        android:layout_alignBottom="@+id/mass" />
+        android:layout_alignBottom="@+id/mass"
+        android:textSize="@dimen/_11sdp"/>
 
     <Button
         android:id="@+id/fourth"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="@dimen/_17sdp"
         android:text="@string/button_time"
         android:layout_below="@+id/length"
         android:layout_alignLeft="@+id/length"
-        android:layout_alignStart="@+id/length" />
+        android:layout_alignStart="@+id/length"
+        android:textSize="@dimen/_11sdp"/>
 
     <Button
         android:id="@+id/volume"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
         android:text="@string/button_volume"
         android:layout_alignBaseline="@+id/fourth"
         android:layout_alignBottom="@+id/fourth"
         android:layout_alignLeft="@+id/area"
-        android:layout_alignStart="@+id/area" />
+        android:layout_alignStart="@+id/area"
+        android:textSize="@dimen/_11sdp"/>
     <Button
         android:id="@+id/energy"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
         android:text="@string/button_energy"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_17sdp"
         android:layout_below="@+id/fourth"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/_11sdp"/>
     <Button
         android:id="@+id/currency"
-        android:layout_width="60pt"
+        android:layout_width="@dimen/_111sdp"
         android:layout_height="wrap_content"
         android:text="@string/button_currency"
         android:layout_alignBaseline="@+id/energy"
         android:layout_alignBottom="@+id/energy"
         android:layout_alignLeft="@+id/volume"
-        android:layout_alignStart="@+id/volume" />
+        android:layout_alignStart="@+id/volume"
+        android:textSize="@dimen/_11sdp"/>
+
+    <Button
+        android:id="@+id/number_systems"
+        android:layout_width="@dimen/_111sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/energy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/number_systems"
+        android:textSize="@dimen/_11sdp" />
 </RelativeLayout>

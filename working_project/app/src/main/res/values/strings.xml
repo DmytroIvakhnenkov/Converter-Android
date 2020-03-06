@@ -11,17 +11,73 @@
     <string name="app_name">CurrencyConverter</string>
     <string-array name="name">
         <item>US Dollar</item>
-        <item>European Union Euro</item>
-        <item>Canadian Dollar</item>
+        <item>Japanese Yen</item>
+        <item>Bulgarian Lev</item>
+        <item>Czech Koruna</item>
+        <item>Danish Krone</item>
+        <item>EU Euro</item>
+        <item>Great Britain Pounds</item>
+        <item>Hungarian Forint</item>
+        <item>Polish Złoty</item>
+        <item>Romanian Leu</item>
+        <item>Swedish Krona</item>
+        <item>Swiss Franc</item>
+        <item>Icelandic Krona</item>
+        <item>Norwegian Krone</item>
+        <item>Croatian Kuna</item>
+        <item>Russian Ruble</item>
+        <item>Turkish Lira</item>
         <item>Australian Dollar</item>
-        <item>Ukrainian Hryvna</item>
+        <item>Brazilian Real</item>
+        <item>Canadian Dollar</item>
+        <item>Chinese Yuan</item>
+        <item>Hong Kong Dollar</item>
+        <item>Indonesian Rupiah</item>
+        <item>Israeli New Shekel</item>
+        <item>Indian Rupee</item>
+        <item>South Korean Won</item>
+        <item>Mexican Peso</item>
+        <item>Malaysian Ringgit</item>
+        <item>New Zealand Dollar</item>
+        <item>Philippine Peso</item>
+        <item>Singapore Dollar</item>
+        <item>Thai Baht</item>
+        <item>South African Rand</item>
     </string-array>
     <string-array name="value">
         <item>USD</item>
+        <item>JPY</item>
+        <item>BGN</item>
+        <item>CZK</item>
+        <item>DKK</item>
         <item>EUR</item>
-        <item>CAD</item>
+        <item>GBP</item>
+        <item>HUF</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>ISK</item>
+        <item>NOK</item>
+        <item>HRK</item>
+        <item>RUB</item>
+        <item>TRY</item>
         <item>AUD</item>
-        <item>UAH</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>HKD</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>ZAR</item>
     </string-array>
     <string name="title_activity_help">Help</string>
     <string name="title_activity_number_systems">NumberSystems</string>
@@ -33,6 +89,7 @@
     <string name="button_volume">Volume</string>
     <string name="button_currency">Currency</string>
     <string name="button_energy">Energy</string>
+    <string name="number_systems">Scales of notation</string>
     <string name="valuee1">joules</string>
     <string name="valuee2">kilojoules</string>
     <string name="valuee3">megajoules</string>
