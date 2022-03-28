@@ -1,1 +1,0 @@
-Converter that hepls to convert from one specific unit type to another(works for length, temperature, volume, area, currency, energy, mass and time).
